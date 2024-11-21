@@ -38,7 +38,9 @@ The application provides functionality to manage audio items such as songs and p
 - **Audio Management**:
   - A superclass Audio encapsulates common attributes such as title, duration, total reproductions, likes, and ratings.
   - Subclasses Music and Podcasts inherit from Audio and add specific functionalities.
+
 - **Encapsulation**: Prevent direct access to attributes in the Audio class, allowing interactions only through controlled methods.
+  
 - **Favorites Management**:
   -  Create and manage a list of favorite songs and podcasts.
   -  Add, remove, and list favorite items.
